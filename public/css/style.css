@@ -1,0 +1,167 @@
+
+
+body{
+    background-color: rgba(68, 191, 162, 0.488);
+}
+
+.flex{
+    display: flex;
+    
+    align-items: center;
+}
+
+.pm{
+    padding: 0;
+    margin-top: -2%;
+}
+
+.show-btn{
+    margin-top: 0 !important;
+    padding-top: 0;
+    margin-right: 2rem;
+
+}
+
+.show-img{
+    height: 70vh !important;
+}
+
+.tax-info{
+    display: none;
+}
+
+.switch{
+    font-weight: 400;
+    height: fit-content;
+    border: 2px solid rgba(86, 84, 84, 0.211);
+    border-radius: 7px;
+    margin-left: 7%;
+    padding-left: 5px ;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar-brand .fa-solid{
+    color: #f13c3c;
+} 
+
+.nav-link{
+    font-weight: 500 !important;
+}
+
+.nav-link:hover{
+    color: #f13c3c !important;
+    opacity: 2;
+    cursor: pointer;
+}
+
+#filters{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.filter{
+    margin-top: 1rem;
+     opacity: 0.6;
+}
+
+.filter:hover{
+    color: #f13c3c !important;
+    opacity: 2;
+    cursor: pointer;
+} 
+
+.add-btn{
+    background-color: #f13c3c !important;
+    border: 1px solid #a93e0c !important;
+    margin-bottom: 1rem;
+}
+
+.navbar{ 
+    background-color: rgb(253, 245, 245) !important;
+    width: 100%;
+    height: 5rem; 
+    position: fixed !important;
+    top: 0;
+    z-index: 1;
+}
+
+.redirect{
+    text-decoration: dotted;
+    
+}
+
+.zindex{
+    position: fixed !important;
+    z-index: 1 !important;
+}
+
+/* .heading{
+    padding-top: 5rem;
+} */
+
+.container{
+    margin: 5rem;
+    margin-bottom: 0 !important;
+    min-height: 75.5vh !important;
+    max-height: fit-content;
+    width: 100vw !important;
+}
+.relat{
+    position: relative;
+}
+#map {
+    margin-bottom: 10px;
+      /* position: static;
+      top: 10vh;
+      bottom: 0; */
+      width: 100%;
+      height: 400px;
+    }
+
+.footer{
+    width: 100% !important;
+}
+
+.f-info{
+    
+    width: 100%;
+   
+    /* margin-bottom: 3px; */
+    border-top: 2px solid rgba(0, 0, 0, 0.071);
+    height: 5rem;
+    background-color:  rgb(253, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing-card{
+    border: none !important;
+}
+
+
+/* card image */
+.card-img-top{
+    width: 100%;
+    height: 20rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* card effect */
+
+.card-img-overlay{
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    width: 20rem;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}

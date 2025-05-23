@@ -1,0 +1,24 @@
+<% layout("/layouts/boilerPlate") %>
+
+    <div class="form mx-auto w-50">
+        <h2 class="heading">login to StayFinder</h2>
+        <form action="/login" method="post">
+
+            <div class="mb-3">
+                <label for="username" class="form-label fw-bold">Username</label>
+                <input type="text" name="username" id="username" class="form-control" required>
+                <!-- <div class="invalid-feedback">Enter correct username</div> -->
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label fw-bold">Password</label>
+                <input type="password" name="password" id="password" class="form-control" required>
+                <!-- <div class="invalid-feedback">wrong password</div> -->
+
+            </div>
+
+            <button class="btn btn-success">Login</button>
+
+        </form>
+
+    </div>

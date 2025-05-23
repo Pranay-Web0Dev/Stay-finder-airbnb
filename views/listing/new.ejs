@@ -1,0 +1,58 @@
+<% layout("/layouts/boilerPlate") %>
+
+    <body>
+        <div class="form mx-auto w-50 ">
+
+
+            <h2 class="heading">create new listing</h2>
+            <form method="post" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+
+
+                <div class="mb-3">
+                    <label for="title" class="form-label fw-bold">title</label>
+                    <input type="text" name="listing[title]" class="form-control" required>
+
+                    <div class="invalid-feedback">enter name of your motel</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="description" class="form-label fw-bold">description</label>
+                    <input type="text" name="listing[description]" class="form-control" required>
+
+                    <div class="invalid-feedback">enter short description</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="image" class="form-label fw-bold">upload listing image</label>
+                    <input type="file" name="listing[image]" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="price" class="form-label fw-bold">price</label>
+                    <input type="text" name="listing[price]" class="form-control" required>
+
+                    <div class="invalid-feedback">enter valid price</div>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="mb-3 col-md-6">
+                        <label for="location" class="form-label fw-bold">location</label>
+                        <input type="text" name="listing[location]" class="form-control" required>
+
+                        <div class="invalid-feedback">enter valid location</div>
+                    </div>
+
+                    <div class="mb-3 col-md-6">
+                        <label for="country" class="form-label fw-bold">country</label>
+                        <input type="text" name="listing[country]" class="form-control" required>
+
+                        <div class="invalid-feedback">enter name of country</div>
+                    </div>
+                </div>
+
+                <button class="btn btn-dark add-btn ">Add</button>
+            </form>
+        </div>
+    </body>
