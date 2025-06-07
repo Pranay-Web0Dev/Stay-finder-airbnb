@@ -40,13 +40,13 @@ Stay Finder is a full-stack Airbnb-like web application that helps users easily 
 ### 🏠 Homepage
 ![Homepage](https://github.com/Pranay-Web0Dev/Stay-finder-airbnb/blob/main/images/Screenshot%202025-06-02%20205249.png?raw=true)
 
-### 🔍 Search Results
+### 🔍 Listing
 ![Search Results](https://github.com/Pranay-Web0Dev/Stay-finder-airbnb/blob/main/images/Screenshot%202025-06-02%20205311.png?raw=true)
 
-### 📄 Hotel Details
+### 📄 Review
 ![Hotel Details](https://github.com/Pranay-Web0Dev/Stay-finder-airbnb/blob/main/images/Screenshot%202025-06-02%20205437.png?raw=true)
 
-### 🧾 Booking Page
+### 🧾 Map
 ![Booking Page](https://github.com/Pranay-Web0Dev/Stay-finder-airbnb/blob/main/images/Screenshot%202025-06-02%20205458.png?raw=true)
 
 ---
